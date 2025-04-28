@@ -1,0 +1,24 @@
+	use AP_BD
+	create table estudiantes(
+	id int primary key,
+	nombre varchar (50),
+	fechaNacimiento date
+	);
+
+	select * from estudiantes 
+
+	insert into estudiantes (id,nombre,fechaNacimiento) values
+	(1,'Valentino','2006-11-10'), (2,'Priscila','2007-06-26');
+
+	delete from estudiantes where id=1;
+
+	select * from estudiantes 
+
+	create table materias(
+	codigo int primary key,
+	nombre varchar(50)
+	);
+
+	insert into materias (id,codigo,nombre) values (1,'Musica',)
+
+
